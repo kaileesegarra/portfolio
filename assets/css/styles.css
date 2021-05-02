@@ -1,9 +1,3 @@
-:root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
-  }
-  
 /* Start of Global Styling */
 * {
     box-sizing: border-box;
@@ -21,7 +15,7 @@ body {
 /* Start of Header Section Styling */
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: #024e76;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -38,13 +32,13 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary-color);
+    color: #fce138;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
   
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #fce138;
 }
   
 header nav {
@@ -67,8 +61,7 @@ header nav ul li a {
 }
   
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    color: red;
     border-radius: 15px;
     text-shadow: none;
 }  
@@ -76,7 +69,6 @@ header nav ul li a:hover {
   
 /* Start of Footer Section Styling */
 footer {
-    background: var(--primary-color);
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
@@ -85,7 +77,7 @@ footer {
 }
   
 footer h2 {
-    color: var(--secondary-color);
+    color: #024e76;
     font-size: 30px;
     margin: 0;
 }
@@ -101,18 +93,19 @@ section {
     background-image: url('../images/alvaro-pinot-czDvRp5V2b0-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: 80%;
-    font-style: normal;
-    font-size: 30px;
+    background-position: 80%;    
 }
 
 .hero h2 {
-    color: blue;
+    font-style: normal;
+    font-size: 30px;
+    color: #024e76;
     float: right;
+    background-color: #fce138;
 }
 /* End of Hero Section Styling */
     
-/* Start of Section Titles Styling */
+/* Start of Section Content Styling */
 .section {
     background-color: #024e76;
     display: flex;
@@ -123,27 +116,92 @@ section {
 
 .section-title {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     font-size: 48px;
     border-right: 3px solid;
     color: #fce138;
     margin: 0 auto 0 auto;
+    padding-right: 15px;
     width: 20%;
+    text-align: right;
+
 }
 
 .flex-row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 auto 0 auto;
     width: 80%;
 }
 
-.section p {
-    line-height: 1.7;
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section p, .section a {
+    line-height: 1.5;
     color: #fce138;
     width: 80%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    padding: 0 15px 0 15px;
 }
+
+.subtitle {
+    font-size: 15px;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+.side-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+}
+
+.surf-report {
+    background-image: url(../images/victoria-palacios-scIXeTCipZA-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+.led-wall {
+    background-image: url(../images/eugene-chystiakov-xhXj7EDX6EY-unsplash.jpg);
+    background-size: cover;
+}
+
+.calculator {
+    background-image: url(../images/recha-oktaviani-h2aDKwigQeA-unsplash.jpg);
+    background-size: cover;
+}
+
+.pastel-puzzles {
+    background-image: url(../images/peter-f-XURJBJi_wDE-unsplash.jpg);
+    background-size: cover;
+}
+
+.run-buddy {
+    background-image: url(../images/Screen\ Shot\ 2021-05-02\ at\ 5.19.30\ AM.png);
+    background-size: cover;
+}
+
 /* End of About Me Styling */
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
