@@ -83,7 +83,7 @@ footer h2 {
 }
 /* End of Footer Section Styling */
   
-/* Section Styling */
+/* Section Global Styling */
 section {
     padding: 60px;
 }
@@ -105,7 +105,7 @@ section {
 }
 /* End of Hero Section Styling */
     
-/* Start of Section Content Styling */
+/* Start of Main Sections Content Styling */
 .section {
     background-color: #024e76;
     display: flex;
@@ -114,6 +114,7 @@ section {
     align-items: center;
 }
 
+/* "About Me" and "Contact Me" Sections Titles' Styling */
 .section-title {
     display: flex;
     flex-wrap: wrap;
@@ -127,6 +128,7 @@ section {
     border-right: #fce138 solid 3px;
 }
 
+/* "Work" Section Title's Styling */
 .section-title2 {
     display: flex;
     flex-wrap: wrap;
@@ -137,12 +139,10 @@ section {
     padding-right: 15px;
     width: 10%;
     text-align: end;
-}
-
-.section-title2 {
     height: 1250px;
 }
 
+/* "About Me" and "Contact Me" Section Contents' Styling */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -152,6 +152,7 @@ section {
     width: 90%;
 }
 
+/* "Work" Section Content Stlyling */
 .flex-row2 {
     display: flex;
     flex-direction: column;
@@ -163,6 +164,14 @@ section {
     border-left: #fce138 solid 3px;
 }
 
+/* Photo of Jaspreet */
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+}
+
+/* Section Font and Anchor Elements Styling */
 .section p, .section a {
     line-height: 1.5;
     color: #fce138;
@@ -173,6 +182,7 @@ section {
     padding: 0 15px 0 15px;
 }
 
+/* "Work" Section Font Styling */
 .flex-row2 p {
     display: inline-block;
     text-align: start;
@@ -184,6 +194,7 @@ section {
     left: 0%;
 }
 
+/* Main Project Section Styling */
 .main-project {
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +205,7 @@ section {
     width: 100%;
 }
 
+/* Others Projects Section Styling */
 .side-projects {
     display: flex;
     flex-wrap: wrap;
@@ -204,6 +216,7 @@ section {
     width: 100%;
 }
 
+/* Main Project Image Styling */
 .surf-report {
     background-image: url(../images/jeremy-bishop-cEeEtjedNls-unsplash\ \(1\).jpg);
     background-size: cover;
@@ -214,10 +227,12 @@ section {
     position: relative;
 }
 
+/* Main Project Hover Styling */
 .surf-report:hover {
     opacity: 75%;
 }
 
+/* LED Wall Image Styling */
 .led-wall {
     background-image: url(../images/eugene-chystiakov-xhXj7EDX6EY-unsplash.jpg);
     background-size: cover;
@@ -229,10 +244,12 @@ section {
     position: relative;
 }
 
+/* LED Wall Hover Styling */
 .led-wall:hover {
     opacity: 75%;
 }
 
+/* Calculator Image Styling */
 .calculator {
     background-image: url(../images/recha-oktaviani-h2aDKwigQeA-unsplash.jpg);
     background-size: cover;
@@ -244,10 +261,12 @@ section {
     position: relative; 
 }
 
+/* Calculator Hover Styling */
 .calculator:hover {
     opacity: 75%;
 }
 
+/* Pastel Puzzle Image Styling */
 .pastel-puzzles {
     background-image: url(../images/peter-f-XURJBJi_wDE-unsplash.jpg);
     background-size: cover;
@@ -259,10 +278,12 @@ section {
     position: relative; 
 }
 
+/* Pastel Puzzle Hover Styling */
 .pastel-puzzles:hover {
     opacity: 75%;
 }
 
+/* Run Buddy Image Styling */
 .run-buddy {
     background-image: url(../images/Screen\ Shot\ 2021-05-02\ at\ 5.19.30\ AM.png);
     background-size: cover;
@@ -274,11 +295,11 @@ section {
     position: relative; 
 }
 
+/* Run Buddy Hover Styling */
 .run-buddy:hover {
     opacity: 75%;
 }
-
-/* End of About Me Styling */
+/* End of Main Sections Content Styling */
   
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -322,24 +343,12 @@ section {
   
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
-  
     .section-title {
       width: 95%;
     }
   
     .section p {
       width: 100%;
-    }
-
-    .contact-info {
-      text-align: center;
-    }
-  
-    .contact-info > * {
-      flex: 0 100%;
     }
 }
   
