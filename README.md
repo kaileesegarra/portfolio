@@ -60,7 +60,7 @@ How to use your project?
 
 ## Project Status
 
-Project is:_in progress_
+Project is: _in progress_
 
 
 ## Room for Improvement
@@ -76,4 +76,4 @@ Include areas you believe need improvement / could be developed further. For exa
 
 ## Contact
 
-Created by [Kailee](https://github.com/kaileesegarra/) - feel free to contact me!
+Created by [Kailee](https://github.com/kaileesegarra/) - Connect with me!
