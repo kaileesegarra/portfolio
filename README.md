@@ -40,7 +40,7 @@ List the ready features here:
 
 ## Screenshots
 
-![Come back later for an updated preview](./assets/images/underconstruction.jpg/.png)
+![Come back later for an updated preview](./assets/images/underconstruction.jpg)
 
 
 ## Setup
@@ -60,7 +60,7 @@ How to use your project?
 
 ## Project Status
 
-Project is:(_in progress_)
+Project is:_in progress_
 
 
 ## Room for Improvement
