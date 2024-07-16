@@ -40,13 +40,15 @@ List the ready features here:
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
-- Include a few screenshots that show important parts of your project.
+![Come back later for an updated preview](./assets/images/underconstruction.jpg/.png)
+
 
 ## Setup
 
 $ cd ../path/to/the/file
+
 $ npm install
+
 $ npm start
 
 ## Usage
