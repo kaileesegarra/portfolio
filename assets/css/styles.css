@@ -112,7 +112,7 @@ section {
 .section p {
     flex: 1; 
     margin: 0; 
-    margin-left: 20px; /* Ensure some space between the photo and the text */
+    margin-left: 20px; 
 }
 /* Work Section Styling */
 .flex-row2 {
